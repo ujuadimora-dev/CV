@@ -32,7 +32,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 300px;
     transition: all, 5s ease-in-out;
     -moz-transition: all, 5s ease-in-out;
     -webkit-transition: all, 5s ease-in-out;
@@ -65,6 +65,9 @@ header{
     font-size: 0;
 }
 
+#nav{
+    margin: 0;
+}
 #nav li{
     font-size: 14px;
     padding: 0;
@@ -97,4 +100,12 @@ header{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*-----------------------------------------hover.css*/
+
+.hvr-sweep-to-bottom::before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+    
 }
