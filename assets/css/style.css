@@ -19,6 +19,9 @@
     background-color: #525252;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
 /*------------------------------special padding, margin, text*/
 h1,h2,h3,h4 {
     margin: 0;
@@ -32,6 +35,10 @@ h1,h2,h3,h4 {
     font-family: "Exo" , sans-serif;
     font-weight: 300;
     color: #fafafa;
+}
+.inline-block {
+    display: inline-block;
+
 }
 
 
@@ -134,4 +141,59 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    /*--transistion is in the parent for a smooth transistion take place when mouse hoves over and the the mouse leave*/
+    transition: all 0.35s ease-in-out;
+    -moz-transistion: all 0.35s ease-in-out; /*-----mozillar blowse*/
+    -webkit-tranistion: all 0.35s ease-in-out;/*-----webkit bloser*/
+    -o-transsition: all 0.35s ease-in-out; /*-----opera blowse*/
+
+
+}
+.cv-pdf i:hover {
+    color: #e84610;
+
+}
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transistion: all 0.35s ease-in-out; /*-----mozillar blowse*/
+    -webkit-tranistion: all 0.35s ease-in-out;/*-----webkit bloser*/
+    -o-transsition: all 0.35s ease-in-out; /*-----opera blowse*/
+
+
+}
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px; /*-padding left and right 20px*/ 
+}
+
+/*-------------------------------------Three Reasons */
+.three-reasons-icon {
+    font-size: 26px;
+    color: #eb7e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
